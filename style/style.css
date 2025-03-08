@@ -30,6 +30,8 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
+  text-align: center;
+  align-items: center;
 }
 .container_botao {
   background-color: var(--botao-azul);
@@ -64,6 +66,7 @@ body {
 .secundario {
   margin: 0 10em;
   align-items: center;
+  text-align: center;
 }
 .descricao_titulo {
   font-weight: 700;
@@ -73,4 +76,11 @@ body {
 }
 .descricao_texto {
   color: var(--cinza-secundario);
+}
+.secundario_botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+.container_descricao {
+  padding: 3em;
 }
